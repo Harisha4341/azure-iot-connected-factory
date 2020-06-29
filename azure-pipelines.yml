@@ -19,7 +19,7 @@ steps:
 
 - task: PowerShell@1
   inputs:
-    inlineScript: Install-Module Posh-SSH -MaximumVersion 2.0.2 -AllowClobber,
+    inlineScript: Install-Module -Name Posh-SSH -RequiredVersion 2.0.2,
 
 - task: PowerShell@1
   inputs:
