@@ -18,7 +18,7 @@ steps:
 - task: PowerShell@1
   inputs:
     scriptType: filePath
-    scriptName: Build.ps1
+    scriptName: build.ps1
 
 
 - task: NuGetToolInstaller@1
